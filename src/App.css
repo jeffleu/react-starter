@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.chart {
+  height: 100vh;
+}
+
+.row {
+  height: 50%;
+  display: flex;
+}
+
+.row1 {
+  border-bottom: 1px solid #000;
+}
+
+.quad1 {
+  border-right: 1px solid #000;
+  width: 50%;
+}
+
+.quad3 {
+  border-right: 1px solid #000;
+  width: 50%; 
+}
+
+.bubble {
+  min-height: 25px;
+  min-width: 25px;
+  max-height: 150px;
+  max-width: 150px;
+  background-color: #50c8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+}
